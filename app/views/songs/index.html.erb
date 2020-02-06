@@ -1,0 +1,14 @@
+Index<br>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @songs.each do |song| %>
+            <tr><%= song.title %></tr><br>
+        <% end %>
+    </tbody>
+</table>
